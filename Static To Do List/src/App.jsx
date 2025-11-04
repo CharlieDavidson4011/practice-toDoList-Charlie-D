@@ -1,8 +1,6 @@
-import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import ToDoList from './components/ToDoList';
-
+import Header from "./components/Header";
+import ToDoList from "./components/ToDoList";
+import "./App.css";
 function App() {
   return (
     <div className="App">
@@ -11,5 +9,5 @@ function App() {
     </div>
   );
 }
-
 export default App;
+

@@ -1,16 +1,10 @@
-import React from 'react';
-
 function ToDoList() {
-    // Static list of tasks
-    const tasks = ['Learn React', 'Build a project', 'Read documentation'];
-
     return (
         <ul>
-            {tasks.map((task, index) => (
-                <li key={index}>{task}</li>
-            ))}
+            <li>Learn React</li>
+            <li>Build a project</li>
+            <li>Read documentation</li>
         </ul>
     );
 }
-
 export default ToDoList;
